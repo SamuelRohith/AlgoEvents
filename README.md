@@ -1,16 +1,20 @@
-# nickthelegend's ticket-nft
+# Samuel's Algorand-ticket-nft
+
+AlgoEvents
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-* [X] Multi Ticket Minting in NFT
-* [ ] Nft sending when the user signes up
-* [ ] ~~Reselling Allowed, or not in create page freeze the assets is reselling is not allowed~~ [Not Planned]
-* [ ] ~~Create a reselling zone where people can buy the reselling tokens~~ [Not Planned]
-* [ ] Certificates Should be sent when the event is over the Event owner can mint the Certificates of Participation....
-* [ ] Asset Metadata and the creator address verification while "Check In"
-* [ ] Sign the payload with your private key, Combine the payload and signature, and generate a QR code from the combined JSON
-* [ ] Ticket Verification (Check-In App), Scan and decode the QR code to extract the payload and signature, Use the known public key to verify the signature against the payload,If valid, the ticket is confirmed as genuine and untampered
-* [X] Change /events its kinda bad design, Add Free Ticket also in /create
-* [ ] Add map location in /create
-* [X] A Tab where /host events should be there where shows what all events are hosted
-* [ ] /calendars should show what all events you subscribe /have tickets of
+AlgoEvents is a decentralized platform built on the Algorand blockchain to create, host, and attend events using NFTs as tickets. It ensures secure ticketing, fraud prevention, and seamless event participation via on-chain verification and wallet integration.
+
+# Features
+- Organizers can mint multiple tickets for an event as NFTs, simplifying bulk issuance.
+- The create page now supports issuing Free Tickets, offering flexibility for different types of events.
+- A new tab under host displays all events hosted by the user, streamlining access and management.
+- The events route has been redesigned for a cleaner and more intuitive user experience.
+- Tickets are signed with the private key of the issuer; at check-in, QR codes are scanned, payloads and signatures are decoded and verified with the public key to ensure ticket authenticity.
+- Verification for NFT asset metadata and the creator’s address during ticket check-in.
+- The calendars page now displays all events the user is subscribed to or has tickets for.
+
+# Upcoming Features
+- Event organizers will be able to mint and send certificates to participants after the event ends.
+- Add map location integration on the create page to display where events will be held.
