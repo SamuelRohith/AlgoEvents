@@ -12,9 +12,9 @@ AlgoEvents is a decentralized platform built on the Algorand blockchain to creat
 - A new tab under host displays all events hosted by the user, streamlining access and management.
 - The events route has been redesigned for a cleaner and more intuitive user experience.
 - Tickets are signed with the private key of the issuer; at check-in, QR codes are scanned, payloads and signatures are decoded and verified with the public key to ensure ticket authenticity.
-- Verification for NFT asset metadata and the creator’s address during ticket check-in.
 - The calendars page now displays all events the user is subscribed to or has tickets for.
 
 # Upcoming Features
+- Implementation of verification for NFT asset metadata and the creator’s address during ticket check-in.
 - Event organizers will be able to mint and send certificates to participants after the event ends.
 - Add map location integration on the create page to display where events will be held.
